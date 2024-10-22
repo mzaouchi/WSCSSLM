@@ -1,0 +1,117 @@
+.logo-css{
+    height: 90px;
+    width: 90px;
+    margin-left: 37px;
+}
+
+
+.navmenu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.nav-links{
+    width: 40%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.text{
+    text-decoration: none;
+    font-size: 28px;
+    color: #4fa3db;
+    font-weight: bold;
+}
+
+.nav-links li{
+    list-style: none;
+}
+
+.text:hover{
+    color: #484551;
+}
+
+header{
+    background-color: rgba(255, 255, 255, 0.9);
+    position: sticky;
+    top: 0;
+}
+
+.about-section{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.about-section h1{
+    font-size: 38px;
+}
+
+.about-section div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.watchvideo-btn{
+    background-color: #4fa3db;
+    font-size: 25px;
+    width: 197px;
+    height: 52px;
+    font-weight: bold;
+    color: white;
+    border-radius: 30px;
+}
+
+.watchvideo-btn:hover{
+    border-color: #4fa3db;
+    background-color: white;
+    color: black;
+    font-size: 30px;
+    width: 205px;
+    height: 52px;
+}
+
+
+.projects-section{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 47px;
+}
+
+.project{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.project a{
+    text-decoration: none;
+    color: #4fa3db;
+}
+
+footer{
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-message{
+    font-size: 30px;
+}
+
+.footer-message a{
+    text-decoration: none;
+    color: #4fa3db;
+}
+
+@media (min-width: 576px) and (max-width: 768px) {
+    *{
+        background-color: yellow;
+    }
+
+    .text{
+        font-size: 18px;
+    }
+ } 
